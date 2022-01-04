@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DockingPaneLayouts CompactMode="1">
 	<DSP_PANE_SECTION>
-		<Summary Panes="16" TopContainer="4" Client="7"/>
-		<Pane-1 Type="0" DockingCX="240" DockingCY="286" Title="Instruction Toolbox\n\n" ID="4381" DockingHolder="10" FloatingHolder="16" LastHolder="16"/>
-		<Pane-2 Type="0" DockingCX="625" DockingCY="200" Title="Memory View [MC0-MC1023  -  BIT]\n\n" ID="7057" DockingHolder="9" FloatingHolder="13" LastHolder="13"/>
-		<Pane-3 Type="0" DockingCX="360" DockingCY="286" Title="Data2\n\n" ID="6857" DockingHolder="5" LastHolder="5"/>
-		<Pane-4 Type="2" DockingCX="1920" Horiz="1" Panes="3" Pane-1="5" Pane-2="6" Pane-3="10"/>
-		<Pane-5 Type="1" DockingCX="360" DockingCY="286" Panes="1" Selected="3" Pane-1="3"/>
-		<Pane-6 Type="2" DockingCX="404" Panes="2" Pane-1="7" Pane-2="8"/>
-		<Pane-7 Type="4" DockingCY="421"/>
-		<Pane-8 Type="2" DockingCX="360" DockingCY="199" Horiz="1" Panes="1" Pane-1="9"/>
-		<Pane-9 Type="1" DockingCX="625" DockingCY="200" Panes="0"/>
-		<Pane-10 Type="1" DockingCX="240" DockingCY="286" Panes="0"/>
-		<Pane-11 Type="3" WindowRectTopPos="10" WindowRectBottomPos="388" WindowRectLeftPos="-1435" WindowRectRightPos="10" TopContaner="12"/>
-		<Pane-12 Type="2" DockingCX="625" DockingCY="200" Horiz="1" Panes="1" Pane-1="13"/>
-		<Pane-13 Type="1" DockingCX="625" DockingCY="200" Panes="1" Selected="2" Pane-1="2"/>
-		<Pane-14 Type="3" WindowRectTopPos="214" WindowRectBottomPos="500" WindowRectLeftPos="1275" WindowRectRightPos="1515" TopContaner="15"/>
-		<Pane-15 Type="2" DockingCX="240" DockingCY="286" Horiz="1" Panes="1" Pane-1="16"/>
-		<Pane-16 Type="1" DockingCX="240" DockingCY="286" Panes="0"/>
+		<Summary Panes="15" TopContainer="3" Client="8"/>
+		<Pane-1 Type="0" DockingCX="240" DockingCY="286" Title="Instruction Toolbox\n\n" ID="4381" DockingHolder="9" FloatingHolder="12" LastHolder="9"/>
+		<Pane-2 Type="0" DockingCX="360" DockingCY="286" Title="Data2\n\n" ID="6857" DockingHolder="6" FloatingHolder="15" LastHolder="6"/>
+		<Pane-3 Type="2" DockingCX="1920" Horiz="1" Panes="2" Pane-1="4" Pane-2="9"/>
+		<Pane-4 Type="2" DockingCX="1676" Panes="1" Pane-1="5"/>
+		<Pane-5 Type="2" DockingCY="637" Horiz="1" Panes="2" Pane-1="6" Pane-2="7"/>
+		<Pane-6 Type="1" DockingCX="360" DockingCY="286" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-7 Type="2" DockingCX="1312" Panes="1" Pane-1="8"/>
+		<Pane-8 Type="4" DockingCY="637"/>
+		<Pane-9 Type="1" DockingCX="240" DockingCY="286" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-10 Type="3" WindowRectTopPos="286" WindowRectBottomPos="572" WindowRectLeftPos="77" WindowRectRightPos="317" TopContaner="11"/>
+		<Pane-11 Type="2" DockingCX="240" DockingCY="286" Horiz="1" Panes="1" Pane-1="12"/>
+		<Pane-12 Type="1" DockingCX="240" DockingCY="286" Panes="0"/>
+		<Pane-13 Type="3" WindowRectTopPos="221" WindowRectBottomPos="507" WindowRectLeftPos="-264" WindowRectRightPos="96" TopContaner="14"/>
+		<Pane-14 Type="2" DockingCX="360" DockingCY="286" Horiz="1" Panes="1" Pane-1="15"/>
+		<Pane-15 Type="1" DockingCX="360" DockingCY="286" Panes="0"/>
 	</DSP_PANE_SECTION>
 </DockingPaneLayouts>
