@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DockingPaneLayouts CompactMode="1">
+	<DSP_PANE_SECTION>
+		<Summary Panes="16" TopContainer="8" Client="14"/>
+		<Pane-1 Type="0" DockingCX="255" DockingCY="200" Title="Project Browser\n\n" ID="6852" DockingHolder="11" LastHolder="11"/>
+		<Pane-2 Type="0" DockingCX="240" DockingCY="286" Title="Instruction Toolbox\n\n" ID="4381" DockingHolder="15" LastHolder="15"/>
+		<Pane-3 Type="0" DockingCX="625" DockingCY="350" Title="Memory View [MHR0-MHR2047  -  SWORD]\n\n" ID="7068" DockingHolder="16" FloatingHolder="7" LastHolder="16"/>
+		<Pane-4 Type="0" DockingCX="360" DockingCY="286" Title="Data2\n\n" ID="6857" DockingHolder="12" LastHolder="12"/>
+		<Pane-5 Type="3" WindowRectTopPos="322" WindowRectBottomPos="672" WindowRectLeftPos="648" WindowRectRightPos="1273" TopContaner="6"/>
+		<Pane-6 Type="2" DockingCX="625" DockingCY="350" Horiz="1" Panes="1" Pane-1="7"/>
+		<Pane-7 Type="1" DockingCX="625" DockingCY="350" Panes="0"/>
+		<Pane-8 Type="2" DockingCX="1920" DockingCY="642" Panes="2" Pane-1="9" Pane-2="16"/>
+		<Pane-9 Type="2" DockingCY="824" Horiz="1" Panes="3" Pane-1="10" Pane-2="13" Pane-3="15"/>
+		<Pane-10 Type="2" DockingCX="343" DockingCY="200" Panes="2" Pane-1="11" Pane-2="12"/>
+		<Pane-11 Type="1" DockingCX="255" DockingCY="200" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-12 Type="1" DockingCX="360" DockingCY="286" Panes="1" Selected="4" Pane-1="4"/>
+		<Pane-13 Type="2" DockingCX="1329" Panes="1" Pane-1="14"/>
+		<Pane-14 Type="4" DockingCY="654"/>
+		<Pane-15 Type="1" DockingCX="240" DockingCY="286" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-16 Type="1" DockingCX="625" DockingCY="30" Panes="1" Selected="3" Pane-1="3"/>
+	</DSP_PANE_SECTION>
+</DockingPaneLayouts>
