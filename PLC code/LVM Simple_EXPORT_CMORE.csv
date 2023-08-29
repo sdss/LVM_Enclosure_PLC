@@ -690,7 +690,7 @@ $tBottomOfScan,40,TASK,0000FF09
 Drive,41,PROGRAM,4315E8E9
 #END
 
-#BEGIN DM_NICKNAMES EC376476
+#BEGIN DM_NICKNAMES 6B21D7A6
 // nickname, data-type, DM-element, User-BuiltIn-Block-Heap-Type, block-name-or-heap-item-name
 Door_locked_in,DISCRETE,X16,BBLOCK,X
 Door_unlock_in,DISCRETE,X17,BBLOCK,X
