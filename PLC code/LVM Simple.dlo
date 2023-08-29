@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DockingPaneLayouts CompactMode="1">
 	<DSP_PANE_SECTION>
-		<Summary Panes="5" TopContainer="2" Client="5"/>
-		<Pane-1 Type="0" DockingCX="255" DockingCY="200" Title="Project Browser\n\n" ID="6852" DockingHolder="3" LastHolder="3"/>
-		<Pane-2 Type="2" DockingCX="1920" DockingCY="642" Horiz="1" Panes="2" Pane-1="3" Pane-2="4"/>
-		<Pane-3 Type="1" DockingCX="255" DockingCY="200" Panes="1" Selected="1" Pane-1="1"/>
-		<Pane-4 Type="2" DockingCX="1661" Panes="1" Pane-1="5"/>
-		<Pane-5 Type="4" DockingCY="654"/>
+		<Summary Panes="15" TopContainer="5" Client="14"/>
+		<Pane-1 Type="0" DockingCX="255" DockingCY="200" Title="Project Browser\n\n" ID="6852" DockingHolder="10" LastHolder="10"/>
+		<Pane-2 Type="0" DockingCX="360" DockingCY="286" Title="Data1\n\n" ID="6857" DockingHolder="11" LastHolder="11"/>
+		<Pane-3 Type="0" DockingCX="240" DockingCY="286" Title="Instruction Toolbox\n\n" ID="4381" DockingHolder="15" LastHolder="15"/>
+		<Pane-4 Type="0" DockingCX="360" DockingCY="200" Title="I/O System\n\n" ID="7191" DockingHolder="12" LastHolder="12"/>
+		<Pane-5 Type="2" DockingCY="723" Panes="1" Pane-1="6"/>
+		<Pane-6 Type="2" DockingCY="611" Horiz="1" Panes="2" Pane-1="7" Pane-2="15"/>
+		<Pane-7 Type="2" DockingCX="1735" Panes="1" Pane-1="8"/>
+		<Pane-8 Type="2" DockingCX="1920" DockingCY="557" Horiz="1" Panes="2" Pane-1="9" Pane-2="13"/>
+		<Pane-9 Type="2" DockingCX="332" DockingCY="691" Panes="3" Pane-1="10" Pane-2="11" Pane-3="12"/>
+		<Pane-10 Type="1" DockingCX="255" DockingCY="365" Panes="1" Selected="1" Pane-1="1"/>
+		<Pane-11 Type="1" DockingCX="360" DockingCY="322" Panes="1" Selected="2" Pane-1="2"/>
+		<Pane-12 Type="1" DockingCX="360" DockingCY="200" Panes="1" Selected="4" Pane-1="4"/>
+		<Pane-13 Type="2" DockingCX="1584" Panes="1" Pane-1="14"/>
+		<Pane-14 Type="4" DockingCY="654"/>
+		<Pane-15 Type="1" DockingCX="181" DockingCY="286" Panes="0"/>
 	</DSP_PANE_SECTION>
 </DockingPaneLayouts>
