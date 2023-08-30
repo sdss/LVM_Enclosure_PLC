@@ -690,7 +690,7 @@ $tBottomOfScan,40,TASK,0000FF09
 Drive,41,PROGRAM,4315E8E9
 #END
 
-#BEGIN DM_NICKNAMES 2CF1401D
+#BEGIN DM_NICKNAMES 643C85C6
 // nickname, data-type, DM-element, User-BuiltIn-Block-Heap-Type, block-name-or-heap-item-name
 Plat_Wlight_in,DISCRETE,X29,BBLOCK,X
 Plat_Rlight_in,DISCRETE,X30,BBLOCK,X
@@ -700,6 +700,7 @@ Overcurrent_lim,SIGNED_INT_32,D0,BBLOCK,D
 Dome_move_tout,SIGNED_INT_32,D1,BBLOCK,D
 curr_delay_val,SIGNED_INT_32,D2,BBLOCK,D
 Plat_wlight_tog,DISCRETE,MC239,BBLOCK,MC
+Plat_rlight_tog,DISCRETE,MC240,BBLOCK,MC
 Plat_wlight_stat,DISCRETE,MC245,BBLOCK,MC
 Plat_rlight_stat,DISCRETE,MC246,BBLOCK,MC
 Main_init,DISCRETE,$Main.S0,BHEAP,$Main
