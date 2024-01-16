@@ -696,7 +696,7 @@ Heartbeat,46,PROGRAM,F8F3CF08
 Heartbeat_moc,45,PROGRAM,8DF71F14
 #END
 
-#BEGIN DM_NICKNAMES BD66DA3A
+#BEGIN DM_NICKNAMES D5597BE1
 // nickname, data-type, DM-element, User-BuiltIn-Block-Heap-Type, block-name-or-heap-item-name
 Door_locked_in,DISCRETE,X16,BBLOCK,X
 Door_closed_in,DISCRETE,X18,BBLOCK,X
