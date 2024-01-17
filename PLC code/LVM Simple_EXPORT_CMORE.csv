@@ -622,7 +622,7 @@ QUEUE,5,2,00000122
    Full,5,DISCRETE,0,1,READONLY
 #END
 
-#BEGIN DM_BUILTIN_DATA_BLOCKS 8C06A7AF D0A66A03
+#BEGIN DM_BUILTIN_DATA_BLOCKS F6CA76ED 3237EB19
 // name, block-num, DM-structure-data-type-cMore-data-type, radix, count, GUID
 ST,1,DISCRETE,decimal,1024,0000000D
 DST,2,SIGNED_INT_32,decimal,512,0000000E
@@ -656,7 +656,7 @@ RX,30,FLOATING_PT_32,decimal,256,0000002A
 RY,31,FLOATING_PT_32,decimal,256,0000002B
 #END
 
-#BEGIN DM_USER_DATA_BLOCKS 8C06A7AF D0A66A03
+#BEGIN DM_USER_DATA_BLOCKS F6CA76ED 3237EB19
 // name, block-num, DM-structure-data-type-cMore-data-type, radix, count, GUID
 dmlogger,239,UNSIGNED_INT_8,decimal,256,63274CD2
 #END
@@ -693,10 +693,9 @@ $EthIOMaster,47,ETH_IO_MASTER,4813E260
 // name, heap-id, DM-structure-data-type, GUID
 Drive,41,PROGRAM,4315E8E9
 Heartbeat,46,PROGRAM,F8F3CF08
-Heartbeat_moc,45,PROGRAM,8DF71F14
 #END
 
-#BEGIN DM_NICKNAMES 80B97D82
+#BEGIN DM_NICKNAMES 9C0F3AC7
 // nickname, data-type, DM-element, User-BuiltIn-Block-Heap-Type, block-name-or-heap-item-name
 Door_locked_in,DISCRETE,X16,BBLOCK,X
 Door_closed_in,DISCRETE,X18,BBLOCK,X
@@ -772,13 +771,10 @@ Idle,DISCRETE,Drive.S0,UHEAP,Drive
 Motor_start,DISCRETE,Drive.S1,UHEAP,Drive
 Motor_moving,DISCRETE,Drive.S2,UHEAP,Drive
 Drive_disable,DISCRETE,Drive.S3,UHEAP,Drive
-_HB_idle11,DISCRETE,Heartbeat_moc.S0,UHEAP,Heartbeat_moc
-_HB_ok_wait11,DISCRETE,Heartbeat_moc.S1,UHEAP,Heartbeat_moc
-_HB_wait_error11,DISCRETE,Heartbeat_moc.S4,UHEAP,Heartbeat_moc
-_HB_idle1,DISCRETE,Heartbeat.S0,UHEAP,Heartbeat
-_HB_ok_wait1,DISCRETE,Heartbeat.S1,UHEAP,Heartbeat
-_HB_error1,DISCRETE,Heartbeat.S3,UHEAP,Heartbeat
-_HB_wait_error1,DISCRETE,Heartbeat.S4,UHEAP,Heartbeat
+HB_idle,DISCRETE,Heartbeat.S0,UHEAP,Heartbeat
+HB_ok_wait,DISCRETE,Heartbeat.S1,UHEAP,Heartbeat
+HB_error,DISCRETE,Heartbeat.S3,UHEAP,Heartbeat
+HB_wait_error,DISCRETE,Heartbeat.S4,UHEAP,Heartbeat
 $FirmwareRev,SIGNED_INT_32,DST12,BBLOCK,DST
 $HardwareRev,SIGNED_INT_32,DST14,BBLOCK,DST
 $FPGARev,SIGNED_INT_32,DST16,BBLOCK,DST
