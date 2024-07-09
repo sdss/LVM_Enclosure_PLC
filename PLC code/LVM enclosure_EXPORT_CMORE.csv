@@ -697,7 +697,7 @@ Drive,41,PROGRAM,4315E8E9
 Heartbeat,46,PROGRAM,F8F3CF08
 #END
 
-#BEGIN DM_NICKNAMES D0202C35
+#BEGIN DM_NICKNAMES 35B0D182
 // nickname, data-type, DM-element, User-BuiltIn-Block-Heap-Type, block-name-or-heap-item-name
 Door_locked_in,DISCRETE,X16,BBLOCK,X
 Door_closed_in,DISCRETE,X18,BBLOCK,X
