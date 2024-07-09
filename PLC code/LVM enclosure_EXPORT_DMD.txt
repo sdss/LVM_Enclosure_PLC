@@ -1,0 +1,1083 @@
+// Options: Export entire program; Code Block delimiter instructions;
+// Formatted Rung Comments; Element Documentation Database; System Configuration;
+// Memory Configuration/Devices with Built-In Types and User Add-Ons;
+// use Element names (no NickNames); rung/address annotations;
+// <TAB> parameter delimiter; 
+// Write/overwrite file C:\LVM_Enclosure_PLC\PLC code\LVM enclosure_EXPORT_DMD.txt
+
+PLC H2-DM1E
+
+// Do not modify SYS_CONFIG block!
+#BEGIN SYS_CONFIG
+e26e4c340dffe5337f9191f9f6362a4f6a0514b724c08880546cdf77255e31863bdb130c453f9f0e
+bbd02a183f08395d7d8132c1c064e0ad79ba68b04e673a5a11c1805a720212b09d03c488ab74e4a0
+477e89092936d3ac38212a0536702b7d33d849c311396926f0b3f70c2ad3949943dd3f2384dddfea
+d5383ae9953d29cfd7e6ff4a309a448b5d6a69dceffdf412de4fcf7bcb43388887adee9c0ae93144
+ed5c095084e068a746c25a3e459649417a74b8d79a719018d887e358a43eb091b9422b96128242ac
+3d321ec2cf583dca9fcb389a1f70f758600009c5efcb7f22f686661dca286884a57e6a19c4b33c3b
+fe67bbd8b2c803cc09b7d5d0228dc1728ee42486257f629b4bb4e1ed61273bc83738b4dcea6eb707
+2886f5aee501c93c5110303caecbbef7ae784eeb493e1a1a59a599b40282bf43aec2770f7a592e12
+5c194535297b34e0782d1120589d1202f7f63a491ac5c4759181ba5890278e458a948754493ef81c
+ac64df953c58aec163efd922fc4827eef23c2feef7f9d8562ee5bd4517a8c11b9378ed4a63462db8
+e5abbe160099627d04e0d053a51b763133dc000e827397a6c799b57219cc0786067b2a63dad1170b
+a9e7688c893a972c980d154d3caa77208343ed1b9835bdc43be1b378f080cac0a1547fe161de3234
+8454d8a15a8760c84400614034873586f08d585d0682b4c5297a925e610855c04365eae058ba63db
+7a8ba1babee7a15e36e59b31e9fedd7072d2f89ff0e0a877dc58032f3d8f324b98422976071d492b
+670bd2b7dd68c9ef6fc7cf415cf64748ecc468f4f37ec4802b44d7a2f750587db87f8439de5fbe20
+0c40a936a4e40e3ba98178583ba1d98a8dd9af1fdd843249d22087c9446ea405bb7bc2e0e81c0dff
+eb1e52034aeb6d6e854665d194ff8b60803668d2fbae65821ede38f3333c7947d515a6ea8dd4e74b
+9a9f82225a7210159740e0b02fa4d9a4b1aeec811e9d897e1ee7e52944478097b6383c4924111749
+86c80efaab8d24daa936b6a127605170fa8eea3e58df6e5cad51b03be3c81160d2396d7130beaa95
+bc3dba4d725c0d3f5e4d5c30dd806dd3b45b1efccd479e80ccae3581529ccd52d5c0b8f79b00afb0
+43cc38486b7a0bde482f8c61d1b73dab354501212d3840adf07ddd7ac6f55f746e2ea01a1f81af46
+76485c5296ecb882701f6c63bb4495f50ab117d601b11ae9c8349d74f35cf87e8fbdd10ddbc246fa
+97638003e9894b4d5fbf54be81ffaa3e5251eeae4deab83c083258e0bd06033b8a466b6d9a38d345
+7e9d734ba0e27ea1536fd0f7f8c073dbb23b7e78025ae211d108407f4a4de8316a06e591a648bbaf
+e1051f313215e12a1fd23413c1ae44cfa3ae650ecc09565a42937758761f3af2d76806aee397c1eb
+8daa46c18e981796a8bed346ad0d5104106447650c4a9a1be04a7f2caa32dc15b7f943e39d44aacd
+9957e10b26595372386bd87875a2b8ee5aa9d49bf59c2b8bff0435a0cdb938198f8f174cd525c7e8
+e7051da85520028b6a42a7bd11411e3f5761b3bfc5e6722e2e4b6b165055df252d32c530afbaad16
+1d4c1c98ff049adfec05a1a0048737b31244d127868e5f8559b95e0214d1b6b635d71f5c3960f478
+e0c13755888e1058b27e68edd314043978275bf8b70a6913749c8f440e12af7f583bdb5acd9346b0
+d8dd4b271287798f660d67733485a7d61cff50a77774bfa52cb9a8863ba2f6eb018534b135943c99
+3685e5472a456d4fa282f5cff9c6f9ae5f3422382e7f6395f5934571184f11865ff81af26797535f
+22b77dafb2f0767c058016e9c123e435baad4a75513ed279bfe41d026ad50d1cddd25e18a9ac75a8
+eb734000e9567e560cd3950811559222b96147071565676ce39f69a96243817847a3987fd3cd998a
+1f262a7ce3e3fc2749f857d64e29aedecd18834d6a0e6270669a01cf35228be90901bcf035065543
+3ccd88a8fd78b24c74048ec47ec5d8fb0a07af105877b6e9bacf6c96650d85cf37da0e3c7eebd173
+1f9912d068dfc6b076597a53093009966bc1f888cde09c7847ff5ce1f253b42e482a6d0e9af2a096
+b80fbb0b8c3ccdfebefb16ca862f4f6dab38ec975da998c3660e1340444c43efa6a3fd84d07d3605
+4eccd99921391535fe08537c7946d7b6be71f3bc5e1d74f69107be529d4dd6a4a660655ac5c9c0ce
+9e409c13e2ad6dc9b46b47f23002ab493bd90d6b16186861529ccdebb12a50bd75f4cad94bd484c1
+9833c9359a70aeb0fc0cd83e9a998d6cd70f5ca1915db9c9dcfe70a8faae6c910dd463852ad49668
+3375f722558943ffce9bd408c6fe305396351ff131276bb7a19ab3e64e8dabaf101cb622ec967026
+57fd8882d97fd7afafce5c6e4055f6da34a0fe3dc403bd28679ccf781d5a3f05367d7fe491b9d606
+b27074b183baa9a7054f4e96138413d85265c1aea93e001eb4926515013480e0efb1a9523554db4b
+3d09886592c0684ea582f649e9c0bd151876c6884dd6ac4b84f5e78762c09a774a83ee94fdc80cee
+30852448bc4f45d1d7b887d1804fbbd768c854c5c7429eab4f9c285acc31added918aa97c4470c96
+24628a5b8f3852a9b3e63d8d2acd292c38d96200bf0afd99c5815dbc2d744c6a50f6e8b745620767
+b308de04d82b7c3c52dbf7421f2a758b777c3a89a8fb2508f3b97e437c7343c599facef3ef94d29f
+633b0c45d2c281f20038890bd1500fce26d2460a14f405afeaff5210a9cde8bedd83f928e281e97e
+8e37a7e0d12ba30189da073e0709ba55b09f3593f3015feffb8a76f8e578fffef890d6f2667041a7
+84f95baa2ace242e6114056015d1d97ff0efb699e8d88b25edcb30d43b6c88e9f3ca1b758f11b829
+f6d7cc130875036a1aa407428ecd207bde13dfb498e278358a70dbb258b11b881bc552f93677813f
+2a833ab9a01aa7662330b3f39496fa80d1e4bd87023968a89905118e519029cc31cefdebc6ca4cf2
+19cc3129d6457b3b74dcee9e4faad67d5a14eba85df7b8f8e5e2b59064505f64f944731ef8de2e07
+ed6b8a5fa2126ea1acd25591a744fb5994795b7157c05e53ac83a6a64aaf4271b2fac6ecebce1680
+7ff7f449dacb46a38eb88b69d27429060817eae9b4db98c9596aea6816b1450bb0213ee73699fd60
+3dfa377bebee89a1c0b160951ee662eb53d635bd3feb6d1fc37a87e0f143c8233203434820e6fe90
+a78bef3eb0c44d6ef458436b7a9ce2e23d621952911672c1b827130e699774cbfebd1065e7cb66a4
+3614be549d04c5d10ba042ac8bd67363135b367da886df2e52c102bba82e59296dd5486bce57cc0d
+0cc240b776b452ed9a35e433914ba578beb7f7ab9bc54870619c1133207c0501c64a9a600b983ba4
+c2b260b509d65904cffc7d07f32be09a9753d41d68e52c8737ac74d2082cf4eddf2a8a3724222c60
+bff96499305b46120114159babe79b88d6f9bbfceed6650c49ac16b5f9ba211a773fdf48dcc32485
+d9885cc818714ef3130343d3738bee60909ce6f52199764c3c9be7ed9e1d85a806d872277f62d378
+d21b644e6f003f726ae904b02d9b70fb1fe19c2f33b8c77e3f5bbea7a986acd30bd41de2c8e986e1
+2dfeb47d39b5c316d4ff742fda091f4895b86351d5a11757b7a0336c28208f02f00cc3aa9528a8b8
+8414b44c69e7a94e67e089d0e13f9d8cd01bd8c3834994e671b52ab153d732df1bc72f5619694a58
+17a7b4eacfe5ce72d54f1990630df4246ceef82ae54826d77ff4c90a4d0c58066a661c0fa75e320b
+7bdc202c5f854e849368125b357d9d8a1d82b4c1e4db08a84278a0a439f9b129d47766ba71d2c989
+431e6de2bc194da2a7a924f2200019a3bda71b847404484ef9afae678aba72add3665fdb4709eb8e
+8ce5a5c8cca8760c154a77090597a57770cc01125880c60f4bc7b96cb29912c9239804f5e6b8c85a
+f3e1d96a3376db310de33423995b2d8846d322cb6a3667a733e1db0307b2724ede7e86f7d91c10b2
+8a3c5d81544d122f513566e1816becc791804ae78978d3584d8ec9084f795dc88854ad959c9a7d6c
+9585d8ac8c1596a03b107ea1f7e5726b5e054d79e6ca0bd08d38f37f441a42b896848de4657d854d
+b41eedc33cd446b5d763784c796f3fb3a9cf4b82d982ac1cfb611cf0de8902b4a290a461a650e461
+59e21938756f428c7aa68adb0279987fa4260b9d9a479900250498810c53f1efecb8903509a83700
+45cbcd894e868ea58f2f997fa19616694bb92919f311eda5cee142d7a431e66498d8f9f01e069e43
+dc6571fff42a6c7ef33a1df9b22d3125a4310bb081576590fc671bb8a42269b50409a6f04655a9ee
+b8ee45c3b1c1b2de5638cef90a3967682a6fa8a895bb304fb10445e920d39e9c40c1815c655e4757
+2782fef784721a5e3a1ac04816b46ccc5c1942f962c270bd2e70c51b2549c06d60fa652e22fff66c
+8a55827f8383967a63e529fc00e419e8989ce907e0e4a968614e074ea70b4c34ce8d5fe3a4bf4079
+4fcd0e491501cafdc2966b2ce1b7672468d5c6c9938a3de1db2be635f3a261424d0920f04147f844
+ec778ffa2467804a83e98885308ab5849a4e5a45d18d223bcc2dec1aab3adef33f7606d46f96ddda
+aeaa44865e63b8c247f1692f3cbf3f687ca444977fb694bc6a2c75e42fe97f6b5983805ba5e83e5b
+a8934af6c50d68a219a5638bf777ff0168cfcb69980c66a72efefb9ca47dced4ac86f7a3f4b86ac5
+a8d789f8701bc429b18257948d88366b6d590da89466bbcf91e068dba99bcb5082a2a9a5973add69
+d95b7e1ca58c1b031c498ff068637630acb700e298a33b4b57c9ed85d11096d7a5a8611418555202
+961b5675001ebb921bcd05424bf7bf3cee52a3856385147c17d771674af5dfa636dcd4e80d168294
+2255bc710923368021bdf2871202e2020ab6fc7fad11e0c62080d75bdf83733bb77892eab3e69100
+9aafcdff6359c9254102d4d8049f47fdff8682033ed906ecb944084a6a5bbbd3c315f750d9d0cfc6
+bc987abe64e9e6a50a60d4aa404dc1a860a76df69e0ac32dbeb7186f8297133c4fe3a4cc9381a205
+ebba9b68724d366725899e662ad12056cae0a6cbea1dee846bfd1176434fe672019528ec827c6ab2
+b05cfcea8c63f7123bed3590391e38e8b9a8806aa4136baa226e75cf0ac7f9fd1942fc1c42115c45
+5ee5d3b98415d06a8f40e04a2900eb3a73ae4bc1f3e0a79a561f9966132f954629762bdf3eda23e0
+2d246de7ff2fde916821fa44fb467e7771655c2de05d7bbf1d098c0d33067b4fe4a2041627104965
+593ba7ee18d0fce0e955d803f9a0e2a65e99e20e588d22d20a3cff5ce41d312512f380e393348140
+de67e43df3e7e689f0d749a15606081f3a1759075fbb70cdcdd99d2026d6f1fdf3a5c4d1b23ba0b7
+c6a29e77dca7b07e244d75d911962ee6811536b4cdd251abfa0abb5f869b8b93e33e07a963758d0b
+e33f4556eeb778559a34a55fb4ed0785c920b2fcdeab631b0918ac41c40f355173f508163833fdb2
+d3d53cb8470a6e9d3f690557b6db0dc2a37545a0727b3c3a3e4373554b960bdc7c5b422c5f660daf
+e61708cf31e9e6a426d5bab38852dd502d2d88a767069c3a05d4750c7cb56ab50f55e325d6e68212
+4de62d18408bf7dfc83cdb2783dbc5df69b0e26d9651f1e8d63de3687e10dd5b7aff4cee224ed9b5
+d00a46f0c375d1583c5c4a6b3198bee5da7f9832777fddcd58d9cbb9b67940619927daf1cdcfee2e
+a7d706652e89a5d88cecc7950c5c4fd45cfe7c20df09a4940a17be4178da1349564d865998abc6e6
+1aadae5b4105f34294ee493d52e0697b7d706a4abdd445a5ce499eefbac110c92b8b785dffc892ad
+d0fbd74fc4dad4ce825eb624c08c45c0bbdb68124da45461439123a13b9225128bf41e5430b64a68
+79f78ff4ef2d47daab035b5996c61f03f54132c7d68739ac341f4985e8b444137a2068e796bf4e8f
+6b8bb6bdee171a3fd3524e6801adefc664cd35ef9917d93bd058f95981032f4a80fbcd7249114ba3
+f9a5cd3b8af4c18e30ed69844b3dee6eb0252a66c15a3c801d7e0badc913961063a061062ca2daf7
+d63f84e011082d5d235e4cf91b70b2674cd1a0306cfc04f73cc9611af1bd5d74912be57a8a89bfa3
+c541c16289ca57b8b9daa0cd3dfc910b86d30f53ad47a4a80e0f943dfb654fd17eeb4cf814363aa7
+8d751ad00c4f0503c552030075b501beaa2c8c332728d7003520fadc08cfa88e89f3db9150cbf5e3
+556ebd802989339b9fe2758b3e499e6333f92a59d50f07bf8993339f56490917a5e1b2ec50e80de8
+5167f3724b7f7dced9554c23e1e4e03e5171c83c4c5be4d7371e49b8bd05227584785aa7c121419e
+9bf25c6a97666d76db48c1699e731a549d92af3749859d7fe9f87de588dc6c3c0a87ed41cde0453c
+5bf04e3fa62da6f850e181b5a22b7b4e32ee0e798c8a488fe655ccc22cf87adcbca826a62be7f611
+91cf0007d47d7bafc4306836d9ef34733f28cf5bcb7c13e2fe713d7fe06bd8c8a9d919bc40020e25
+e891ae110f4d4aa32c29644130d96263caaf418e6957c7f6eab855ee3f3c7ef9d33b805b17c18389
+fa153a8835cca2d0bfd93fb2e24ac6d2a4de643445a7bf5ec742a370c38f5963246bada30114501c
+80f10ff67b5f2d9df3f5741923cbfb654f69ba90fb8e7035498c5972bcb94fff781474fdc5ecebc5
+c6e6e2bf32424d130b3ae13c0d10db2f0734f3f2f12bd9def90c5781cfc5b748fb485f98193cca4c
+2a480de40f52993d51fd744cc597b7a4dacefbebf07fc4ca50bbdbceeaa75bd90e84b68da4edfaf0
+0ec991fe85bda8a6cbe0940faf87ca555f8a3f4365cdfba860efafd1c8656b74e0fa766fdc6f6284
+ae626dd8637d03ba83161d568c7a4abe46c84ccf06e59aa4b49bb3e86b982f60aef724e0e08d6351
+caa9d4b59e6a1c10d87d49165937d7d3ea7dabb6bd6f3dcfd6431489bf469911dedd8fee61f97809
+b1d539273f2a775ef41e10ad1387c4009f769925d2edca4bb3ab74e6b84a31b86435dfe9138d4c72
+cda05e9e43a42e0ac185012f99e5db610a1c6cadc40c76cf0730ca1fb6e7788c4e274668aeb88da9
+24023313cc02d3f2f22f8d6c1bce21b269222542a1cf3e2c3685a513a8635ec1f6dcb5b7d80da8b2
+13c847ea47ff7c192d95818dfaa1d86d115956f91c8168d9bbdb82ae486020334433d0a0b2c33cca
+adf0a86911cd55a151cdc14b2c1a51248365028dc450155d0781f11d48dcffe8aba5c41ab3cad3ab
+80e61c04c977e497972f4b889b5f8ebbdc3c62c65acea0b10e71c033d739c8cc2045a9e682a618b0
+e0d624c7e1a5ad364d696f970f45fdb5d9409d0da4c1238305ec4e51d6474e7963a4d42f400a4a70
+026d2124e1ebffe38a1a1b46bd0feb9033c5bc8a140380375e374d76244e3e5a7b2c8d6ac812c625
+8763481bc863afa3e2b550335314e6549cc1de43d0a3f2ded9d26da527be3bbe80c9c721c00653d5
+a8aa34c35c65ba987d882065e2a74d8f2e9525b87fd0d6695cea816b9cb072b879f6010bdd67c90f
+b3988c7d0dfa636b606999b0281f09b0f2a775e908ddcb7f5b7e07099cb1db5e2566343117e744bc
+65d32bede590bc8bf9d2ea3f4e45507b0a3781ea439ceedcdfe8c183aad3f7d51a2c1a3f91b551e0
+1d1e1db0a676839ac6961ee3e06f55a41e35830b083fe9cd4da9b40700c7376b452c2d541d4a32f3
+a26bd11b1515e7e25b07d22e60ce5078d5b630889ac6f11ea9d3a900016f0c794717f84d5e1d6c79
+faddcfcb487929f2a61fa96bd83b109771726d9c59c2bb4c9d6cc887a588951486afeb320a493612
+205d1b9df9c6bf41875fca401c74e1072637549e61bde2df7f879c0a13d8ce1ec007896a783e2e1f
+a2ddc41fde836601fc60ce2829c82f84616c5e8af4ac07ede3ae1b032b2209b84c591af1030d93a7
+77e1acd1f30bd0dc707e07c8e6ed4abf9d0a3d6928ce287f4e1ae17c9b2b53facc899c9a2c45d5bd
+f871637887cca4d4c5adcd776fee609ee0bd46a557a370d917bbcddb5a29f9f3615ab2fcf0b3586c
+45827c8fbb63bfad124db17917072df2b699bb3bb877e846591c2a14e64576f494797460c4510da0
+b1c685de619e5c9cda263349395137bfdabc9ddf3dd7b40946327a8915fc1bee65d37911a1fa7c7b
+d00d78461e1220d6ea69e503d8dcb89e1484d1cee37a5041dd914801e27c1eae654edb42c2a04295
+476e1db65afcbffdfc7c42f350728b58702cb1a56e5233a0e6a2d1181903725b51d2dd6611869cc1
+9b8637076a20d8f9fc018675bee6e993e41eaf5f5720dbdede8489576d123689b4c044f7a4194247
+311f072bec7af9a6d9364f053ab7fb171440e88893f5eebf3e253e7e55a0b0955dada0ac0c01e3d1
+3eb7059dcb84790d9b71d67a59b04f3e8293c8145c7d9dfbf341946158f6f980a7d7b8d731e3de9b
+569b155662b35530011a28d97adedb8aafed95cad8e3aabbba2b1d06544abe9e0801094be6f388e8
+45a0b751ab68643f7215cf5c78a81f5c5d7d693be7d7c9d159191ec6cef7e258d1b30150b284e7c4
+4a7a047026d790596a50d9121897485d9b4b5ff17cf4bec5ae96b88ff1e46317f2e571d304b80a8a
+df4e7803f2854472447a2b1f5d04ab300865f99f2add8b320789fcd653af8a52b41039efaffdc9f8
+bbb6060551ba6fd0f3c83912ea0857eb61fd16b186ffa49483fd0f4af5247809effc9db2727ef481
+0e9f10ba0d5e9834455cd068e8e1f9e21ceae3b05110da7a48db39a1563f2a66198e4f925645c885
+ae7fa3b11a457bdcac94925801dc7d4ec7eaa9f1e7d9be05cf0e8254e86103b57a9ace22eb10e01c
+a5fd380bc1e07feebffb4b196401ea8a88a1f07573691e587e122fe37e4be156dac17fd73417c999
+ee27291c9cc6ec5d713fad4dd70f87ece26aad0282082597e036901330fe052785e8118390e77272
+e037c1ffa0ad03eb306834429fa2e6473734b5dcd2da404755506552047883f70a7fc96ab633efcf
+9a3f65865cc80fd874be2a2a802814044da9cde110cabd25d7398196d4c1ed902f757e193a06b6f9
+d412a29bebc6328a401b2b2eea300a83f1d99c6d407473e00dd3df0a3199c55db6382e7e687a71ef
+2757e821cebf35c31e53816bdbf13350aec737a4a6dde4ddb03d1bd35811896ac4e33128344f0ec6
+5a1642a8a6a256b01d832317d59ac7291d81f4b4856a8b409ed53276b838481999058c476210eb3c
+30fdd6eb4ae6679e205ec08eb48090acb8b82b6d8eb33c45e646b5106dde9410f40abbfab6381865
+0de02653fde91166c1e61a8460242a6c5b23f6426ed4f86d48ff05ace7d3a15df8a018c50a5a6eb1
+a220c8780e5fd84dae21b08af496528188cc0fd7187ec9128a6c17f854a23cf6efeef89eebe89e7c
+b6f974d78304c838a40899bedeb7a1c0e41101391c741adca5d0cb26154157ea4cbd99b75d423d60
+ea5f0e49e1f3be59b64e5b8b9b3687a17d4e3ab6833620114768d932dbe3ea49e7c88b382fa75f1b
+f36d8ad4ec341cca9f1d6c1e9f437246e69902dc383deed6fba7b728b1a500f5b2630f3574edb505
+c48390fb58f88db451fab024de91900724f10ab44dafd14f486364f00718556b25d45723541317ee
+c387806c7d0c43e90491525d5c6269a4231b31e67e7fbe33138193cee7da5259eeaef88584ef51fe
+e02481200cb01768d331d524e951a1f25f0234a16a0600f540e2683a49b543e1b8e5422e0fc3702b
+5be26589ae7f449e16ead2feac5b7d2d6a63053d9537e4f27080cbe207c06d25839b1527efea97be
+96878ce48ded73fa6c41897772403e79bf6d894d7d746b09c1e4c2b27ca15762a0f9eec3b8d2b63d
+6c69bb87bd65a6bca9eb323006fe5231235329d3cec58a6de0d5931d219529721fd08d10b003159d
+eb2f57491c3ba56254ab4c839d0116fea59087ef2778c2afae22404d1136fd3c183c7920f733b111
+9521dca45e320b4ac4717bb2e4b6041ed22e06612a5a1421107aa4ccfc33831775847b0ea10f7d9f
+a166936745eacb071d7117f8562937df97ba0f0c188a8dd14b7d2bfc4370e397d79f10325cf2a5ac
+a3ed926e847d7d33a999e8a8ff9b8acc9587a6c17af9651f4204d4522bdd0a9328bd75265039f8b5
+91148092d0c3bff6e593a117b0b0339a46ba0f27f7b56373429a59936faa3669f8d1a23d2137472e
+5016cd832245781b9f5789ecb03f1bdbd3be91ee8e1aec83504224fc4a84b141bcef56b6ed7e198f
+33dbf7c1a0e7961bfdd271e2113a85573d7b52ae206de1864f357a72e44f7f4bf054e89bff10ecaf
+fd58bc58b902f74002f54cc12ee9bd9cbd093956af8c65e947b66a970ef7d1aaaed1aad445006455
+fe06eefb4326e78c69a8f2731d2a2a4ce934b283225a798814ecd1c69e5e736c4953c99c5ecb327a
+a9925ecbd3501f618cfa7c0e0a5e0f7b91277456d6725570e45f87056530a51631992d85e99edefa
+2289341fa7d002fb90657e89bab9b9d48cfa5ac4c06e761253c847e6156b8a39137973d29e544b50
+29476b2fa2957f5e875dedee027cde0bce341526c8bcbbc28f4b12e0fabaf5
+#END
+
+#BEGIN DEVICE
+	@LocalIOMaster, 12, 27
+	@RamFS, 1, 1
+	@UserLog, 7, 11
+	@IntEthernet, 4, 2
+	@DMLogger, 5, 10
+	@IntModTCPClient, 9, 14, 1000, 2, 60
+	@IntEIPClient, 22, 31, 1000, 2, 60
+	@IntEthDMPPClient, 23, 32, 50, 250, 2
+	@IntSerModbusClient, 8, 13
+	@SERIO_004_A, 16385, 23
+	@SERIO_004_B, 17409, 23
+	@ODH, 18433, 25
+	@LCO_smtp, 32769, 7, 2347065611, 25, 30000, LVM-PLC@lco.cl, 0, 110, , , 1, 
+	@EthIOMaster, 13, 27
+	@CTRIO_003, 16387, 6
+	@Dome_encoder, 17411, 16
+#END
+
+#BEGIN MEM_CONFIG
+	X	BIT	decimal	2048	-1
+	Y	BIT	decimal	2048	-1
+	WX	SWORD	decimal	256	-1
+	WY	SWORD	decimal	256	-1
+	C	BIT	decimal	2048
+	V	UWORD	decimal	4096
+	N	SWORD	decimal	4096
+	D	SDWORD	decimal	4096
+	R	REAL	decimal	4096
+	T	TIMER	decimal	256
+	CT	COUNTER	decimal	256
+	SS	STRING	decimal	128
+	SL	STRING	decimal	64
+	UDT	DATETIME	decimal	32
+	PL	UWORD	decimal	256
+	DLX	BIT	octal	01000	-1
+	DLY	BIT	octal	01000	-1
+	DLC	BIT	octal	01000
+	DLV	UWORD	octal	04000
+	MI	BIT	decimal	1024
+	MC	BIT	decimal	1024
+	MIR	SWORD	decimal	2048
+	MHR	SWORD	decimal	2048
+	RX	REAL	decimal	256	-1
+	RY	REAL	decimal	256	-1
+	dmlogger	UBYTE	decimal	256
+	MSG	STRING		0
+	ERR	STRING		0
+	SysName	STRING		0
+	SysDesc	STRING		0
+	SerialNum	STRING		0
+	PartNum	STRING		0
+	Drive	PROGRAM		0	-1
+	Lights	<Virtual>		0
+	Heartbeat	PROGRAM		0
+#END
+
+// Beginning of Code Block Lights
+$LGCMOD	Lights
+
+// Rung Lights#1
+// Offset 0
+STR	C2000
+NOT
+OUT	C2000
+
+// Rung Lights#2
+// Offset 3
+RET
+
+// End of Code Block Lights
+$LGCEND	Lights
+
+// Beginning of Code Block $Main
+$PRGRM	$Main
+
+// Rung $Main#1
+// Offset 0
+#BEGIN FMT_COMMENT 
+" "
+#END
+
+STR	ST0
+DUPBOOL
+AND	ST1
+INIT	"3 D0 ST1023 75 D1 ST1023 165000 D2 ST1023 2000 MC100 ST1023 0 MC102 ST1023 1 MHR510 ST1023 70 D10 ST1023 0 MC201 ST1023 0 MC202 ST1023 0 UDT0.Date ST1023 SDT0.Date UDT0.Time ST1023 SDT0.Time D4 ST1023 DST21 C0 ST1023 0"
+POPBOOL
+DUPBOOL
+AND	X24
+CALL	Lights	0x1	DST511	"3 Y0 C2000 1"	"3 C2000 Y0 1"
+POPBOOL
+DUPBOOL
+AND	X25
+CALL	Lights	0x1	DST511	"3 Y1 C2000 1"	"3 C2000 Y1 1"
+POPBOOL
+DUPBOOL
+AND	X26
+CALL	Lights	0x1	DST511	"3 Y2 C2000 1"	"3 C2000 Y2 1"
+POPBOOL
+DUPBOOL
+AND	X27
+CALL	Lights	0x1	DST511	"3 Y3 C2000 1"	"3 C2000 Y3 1"
+POPBOOL
+DUPBOOL
+AND	X28
+CALL	Lights	0x1	DST511	"3 Y4 C2000 1"	"3 C2000 Y4 1"
+POPBOOL
+AND	X29
+CALL	Lights	0x1	DST511	"3 Y5 C2000 1"	"3 C2000 Y5 1"
+
+// Rung $Main#2
+// Offset 116
+#BEGIN FMT_COMMENT 
+"Read GS3 drive Elements using the cpu rs-232 port"
+#END
+
+STR	T10.Done
+MRX	@IntSerModbusClient	0	0	1	3	8449	8	MHR411	0x0	0	0x0	C100	C200	DST511
+COPY	0x1	"4 0x0 MHR415 MHR130 1"
+
+// Rung $Main#3
+// Offset 134
+STR	T10.Done
+MRX	@IntSerModbusClient	0	0	1	3	8450	1	MHR1024	0x0	0	0x0	C101	C201	DST511
+
+// Rung $Main#4
+// Offset 146
+#BEGIN FMT_COMMENT 
+"Copy the encoder counts output to MHR150<br> <br>"
+"- If motor is not moving, send data every minute.<br>"
+"- If motor is moving, send data every second."
+#END
+
+STRN	MHR1024:0
+ANDN	MHR1024:1
+ANDPD	ST3
+STR	MHR1024:0
+AND	MHR1024:1
+ANDPD	ST4
+ORSTR
+OR	$Dome_encoder.Reset
+COPY	0x1	"4 0x0 $Dome_encoder.iReg1 MHR150 1"
+SCALE	$Dome_encoder.iReg1	0	10850	0	9525	MHR152
+
+// Rung $Main#5
+// Offset 168
+STRPD	ST4
+MATH	MHR151	"ROUND(($Dome_encoder.iReg1 / ((1786 / 65) * 24)) * PI() * 190)"
+
+// Rung $Main#6
+// Offset 187
+STR	MC109
+ANDNE	$Dome_encoder.iReg1	0
+ANDGE	$Dome_encoder.iReg1	-12
+ANDLE	$Dome_encoder.iReg1	12
+SET	$Dome_encoder.Reset
+
+// Rung $Main#7
+// Offset 201
+STR	$Dome_encoder.Reset
+ANDE	$Dome_encoder.iReg1	0
+RST	$Dome_encoder.Reset
+
+// Rung $Main#8
+// Offset 207
+#BEGIN FMT_COMMENT 
+"Read ODH variables for sensor 2 through Serio-4 every 2 seconds."
+#END
+
+STRPD	ST4
+MRX	@ODH	0	0	1	3	202	5	V605	0x0	0	0x0	C102	C202	DST511
+RST	C600
+MOVE	V600	MHR600
+MOVE	V603	MHR602
+MOVE	V604	MHR604
+
+// Rung $Main#9
+// Offset 227
+#BEGIN FMT_COMMENT 
+"Read ODH variables for sensor 1 through Serio-4 every 2 seconds."
+#END
+
+STRND	ST4
+MRX	@ODH	0	0	1	3	102	5	V600	0x0	0	0x0	C103	C203	DST511
+SET	C600
+MOVE	V605	MHR601
+MOVE	V608	MHR603
+MOVE	V609	MHR605
+
+// Rung $Main#10
+// Offset 247
+STR	ST1
+RUN	Drive
+RUN	Heartbeat
+
+// Rung $Main#11
+// Offset 252
+STRN	X16
+ORN	X18
+ANDN	MC900
+OUT	MC3
+
+// Rung $Main#12
+// Offset 256
+STR	X16
+OUT	MC1
+
+// Rung $Main#13
+// Offset 258
+STR	X18
+OUT	MC2
+
+// Rung $Main#14
+// Offset 260
+STR	MC235
+CALL	Lights	0x1	DST511	"3 Y0 C2000 1"	"3 C2000 Y0 1"
+RST	MC235
+
+// Rung $Main#15
+// Offset 273
+STR	X24
+OUT	MC335
+
+// Rung $Main#16
+// Offset 275
+STR	MC236
+CALL	Lights	0x1	DST511	"3 Y1 C2000 1"	"3 C2000 Y1 1"
+RST	MC236
+
+// Rung $Main#17
+// Offset 288
+STR	X25
+OUT	MC336
+
+// Rung $Main#18
+// Offset 290
+STR	MC237
+CALL	Lights	0x1	DST511	"3 Y2 C2000 1"	"3 C2000 Y2 1"
+COPY	0x1	"4 0x0 DST21 D4 1"
+RST	C0
+RST	MC237
+
+// Rung $Main#19
+// Offset 310
+STR	X26
+OUT	MC337
+
+// Rung $Main#20
+// Offset 312
+STR	MC238
+CALL	Lights	0x1	DST511	"3 Y3 C2000 1"	"3 C2000 Y3 1"
+RST	MC238
+
+// Rung $Main#21
+// Offset 325
+STR	X27
+OUT	MC338
+
+// Rung $Main#22
+// Offset 327
+STR	MC239
+CALL	Lights	0x1	DST511	"3 Y4 C2000 1"	"3 C2000 Y4 1"
+RST	MC239
+
+// Rung $Main#23
+// Offset 340
+STR	X28
+OUT	MC339
+
+// Rung $Main#24
+// Offset 342
+STR	MC240
+CALL	Lights	0x1	DST511	"3 Y5 C2000 1"	"3 C2000 Y5 1"
+RST	MC240
+
+// Rung $Main#25
+// Offset 355
+STR	X29
+OUT	MC340
+
+// Rung $Main#26
+// Offset 357
+STRND	MC3
+ANDN	MC900
+DUPBOOL
+AND	X28
+CALL	Lights	0x1	DST511	"3 Y4 C2000 1"	"3 C2000 Y4 1"
+POPBOOL
+AND	X29
+CALL	Lights	0x1	DST511	"3 Y5 C2000 1"	"3 C2000 Y5 1"
+
+// Rung $Main#27
+// Offset 386
+STR	X36
+OUT	MC105
+
+// Rung $Main#28
+// Offset 388
+STR	X38
+OUT	MC106
+
+// Rung $Main#29
+// Offset 390
+STR	X32
+OUT	MC107
+
+// Rung $Main#30
+// Offset 392
+STR	X34
+OUT	MC108
+
+// Rung $Main#31
+// Offset 394
+#BEGIN FMT_COMMENT 
+" "
+#END
+
+STRN	X36
+ORN	X32
+ANDN	MC110
+ANDN	MHR412:0
+ANDN	MHR412:1
+OUT	MC109
+
+// Rung $Main#32
+// Offset 400
+#BEGIN FMT_COMMENT 
+" "
+#END
+
+STR	X38
+OR	X34
+ANDN	MC109
+ANDN	MHR412:0
+ANDN	MHR412:1
+OUT	MC110
+
+// Rung $Main#33
+// Offset 406
+#BEGIN FMT_COMMENT 
+"HVAC Flag to activate telescope platforms inyectors.<br>"
+" <br>Fans will be turned on, if signal is off.<br> <br>"
+"Fans should be turned off, if dome is open (not closed) or "
+"local enebeled."
+#END
+
+STRN	MC109
+OR	MC3
+OUT	Y8
+
+// Rung $Main#34
+// Offset 409
+STR	X40
+OUT	MC200
+
+// Rung $Main#35
+// Offset 411
+STR	MC201
+OUT	Y14
+
+// Rung $Main#36
+// Offset 413
+STR	MC202
+OUT	Y13
+
+// Rung $Main#37
+// Offset 415
+STRN	C5
+STRPRINT	SL1	0x4	"""#file:"" SL2 ""#"" DST21 "" "" SL0 ""$0D$0A"""
+STRCOPY	SL0	SL3	1
+SET	C9
+
+// Rung $Main#38
+// Offset 437
+STR	C9
+STREAMOUT	@DMLogger	0x0	SL1	DST511	DST511	0x0	0x0	C3	C4
+RST	C9
+
+// Rung $Main#39
+// Offset 447
+STR	ST1
+STRPRINT	SL0	0x5	"MC1 MC2 MC3 MC100 MC102 MC105 MC106 MC107 MC108 MC109 MC110 MC200 MC201 MC202 MC235 MC236 MC237 MC238 MC239 MC240 MC335 MC336 MC337 MC338 MC339 MC340 MC600 MC601 MC602 MC900 MHR1024"
+STRCMP	SL3	0x2	C5	ST1023	ST1023	SL0
+
+// Rung $Main#40
+// Offset 521
+STR	ST3
+DTCMP	UDT0	UDT1	0x1	C10	ST1023	ST1023
+EPOCH2DT	DST21	UDT1
+
+// Rung $Main#41
+// Offset 530
+STRN	C10
+EPOCH2DT	DST21	UDT0
+SET	C11
+
+// Rung $Main#42
+// Offset 534
+STR	C11
+STRPRINT	SL2	0x4	"""C:\logs\"" UDT0.Year ""_"" UDT0.Month ""_"" UDT0.Day "".txt"""
+RST	C11
+
+// Rung $Main#43
+// Offset 555
+STR	C1
+OR	C2
+STRPRINT	SL4	0x4	"""#file:C:\logs\smtp.log#"" DST21 "" "" MSG "" "" ERR ""$0D$0A"""
+SET	C7
+RST	C1
+RST	C2
+
+// Rung $Main#44
+// Offset 581
+STR	C7
+STREAMOUT	@DMLogger	0x0	SL4	DST511	DST511	0x0	0x0	C8	C12
+RST	C7
+
+// Rung $Main#45
+// Offset 591
+STRN	C0
+MATH	C0	"DST21 >= (D4 + 3)"
+
+// Rung $Main#46
+// Offset 602
+#BEGIN FMT_COMMENT 
+"Send an email when the lights of the spectrograph room are "
+"turned on manualy<br> "
+#END
+
+STRN	MC237
+ANDPD	X26
+AND	C0
+ANDPDPF
+ANDN	MC901
+EMAIL	@LCO_smtp	"""lvm-critical@sdss.org"""	""""""	""""""	"""Someone entered the Spectrograph room"""	0x0	"""Someone turned on the lights on the spectrograph room at "" SDT0.Day ""/"" SDT0.Month ""/"" SDT0.Year "" "" SDT0.Hour "":"" SDT0.Minute "" Local time."""	0x0	C1	C2
+
+// Rung $Main#47
+// Offset 674
+#BEGIN FMT_COMMENT 
+"Send an email when the lights of the spectrograph room are "
+"turned off manually "
+#END
+
+STRN	MC237
+ANDND	X26
+AND	C0
+ANDPDPF
+ANDN	MC901
+EMAIL	@LCO_smtp	"""lvm-critical@sdss.org"""	""""""	""""""	"""Someone left the Spectrograph room"""	0x0	"""Someone turned off the lights on the spectrograph room at "" SDT0.Day ""/"" SDT0.Month ""/"" SDT0.Year "" "" SDT0.Hour "":"" SDT0.Minute "" Local time."""	0x0	C1	C2
+
+// Rung $Main#48
+// Offset 745
+STRN	T10.Done
+TMR	T10	500
+
+// Rung $Main#49
+// Offset 748
+#BEGIN FMT_COMMENT 
+"The rain sensor was connected using a negated logic (off = "
+"1 & on = 0). Therefore, there are two cases were the input "
+"will be activated<br> <br> 1. There is rain.<br>"
+" 2. There is an issue with the system.<br> <br>"
+"The output logic is negated, to show a logic 1 if there is "
+"rain."
+#END
+
+STRN	X47
+OUT	MC700
+
+// Rung $Main#50
+// Offset 750
+STRND	X47
+STR	ST2
+CNT	CT0	D40
+
+// Rung $Main#51
+// Offset 755
+STR	ST4
+COPY	0x1	"4 0x0 CT0.Acc MHR700 1"
+
+// End of Code Block $Main
+$PGMEND	$Main
+
+// Beginning of Code Block Drive
+$PRGRM	Drive
+
+// Rung Drive#1
+// Offset 0
+SG	Drive.S0
+
+// Rung Drive#2
+// Offset 2
+STRNE	MHR510	MHR410
+MWX	@IntSerModbusClient	0	0	1	6	2331	1	MHR510	0x0	0	0x0	C108	C208	DST511
+
+// Rung Drive#3
+// Offset 17
+#BEGIN FMT_COMMENT 
+"Select the direction of the motor.<br>"
+"Off =%3E Forward direction (Close roll-off)<br>"
+"On =%3E Reverse direction (Open roll-off)"
+#END
+
+STRNE	MC102	MHR1024:4
+DUPBOOL
+AND	MC102
+MWX	@IntSerModbusClient	0	0	1	6	2333	1	1	0x0	0	0x0	C109	C209	DST511
+POPBOOL
+ANDN	MC102
+MWX	@IntSerModbusClient	0	0	1	6	2333	1	0	0x0	0	0x0	C109	C209	DST511
+
+// Rung Drive#4
+// Offset 47
+#BEGIN FMT_COMMENT 
+"To move the roll off, the system has to be in:<br>"
+"Remote mode (local enable off)<br>"
+"E-stop not triggered (Estop_status off)<br>"
+"Motor direction commanded has to agree with GS3 direction "
+"(Motor_dir ==  Status_2:4)"
+#END
+
+STR	MC100
+ANDN	MC3
+ANDN	X40
+ANDE	MC102	MHR1024:4
+JMP	Drive.S1
+
+// Rung Drive#5
+// Offset 55
+#BEGIN FMT_COMMENT 
+"Local enable is normally open, as system will jump to "
+"Local enabled stage if Local_enable is on (Local mode)"
+#END
+
+STR	MC3
+JMP	Drive.S3
+
+// Rung Drive#6
+// Offset 57
+SG	Drive.S1
+
+// Rung Drive#7
+// Offset 59
+STR	MC100
+MWX	@IntSerModbusClient	0	0	1	6	2332	1	V2332	0x0	0	0x1	Drive.S2	C211	V1006
+TMR	T2	2000
+
+// Rung Drive#8
+// Offset 73
+STR	T2.Done
+AND	X40
+JMP	Drive.S0
+RST	MC100
+
+// Rung Drive#9
+// Offset 77
+SG	Drive.S2
+
+// Rung Drive#10
+// Offset 79
+STR	ST1
+TMR	T1	D2
+
+// Rung Drive#11
+// Offset 82
+STR	ST1
+TMR	T0	D1
+COPY	0x1	"4 0x0 T0.Acc R0 1"
+
+// Rung Drive#12
+// Offset 91
+#BEGIN FMT_COMMENT 
+"Set the parameters to stop the drive:<br>"
+"- In case of current above 10 A (100)<br>"
+"- In case of user command (MC 100)<br>"
+"- Dome timeout (set to 2 min 25 sec)<br>"
+"Disabled a lower value for overcurrent & timeout of 5 "
+"sec.<br> <br>If heartbeat is lost, wait to close, and jump "
+"to error state<br> <br>"
+"If local mode activated, stop dome and jump to error state."
+#END
+
+STRGE	MHR415	120
+AND	MC102
+STR	X36
+OR	X32
+ANDSTR
+STR	X38
+OR	X34
+ANDSTR
+STRN	MC102
+STRN	X36
+ORN	X32
+ANDSTR
+STRN	X38
+ORN	X34
+ANDSTR
+ORSTR
+STR	ST2
+ANDGE	MHR415	140
+AND	T1.Done
+ORSTR
+ORNE	MHR411	0
+ORN	MC100
+OR	T0.Done
+ANDN	MC3
+DUPBOOL
+ANDN	MC602
+ANDN	T0.Done
+MWX	@IntSerModbusClient	0	0	1	6	2332	1	0	0x0	0	0x1	Drive.S0	C212	V1006
+RST	MC100
+POPBOOL
+STR	MC602
+OR	T0.Done
+ANDSTR
+MWX	@IntSerModbusClient	0	0	1	6	2332	1	0	0x0	0	0x1	Drive.S3	C213	V1006
+RST	MC100
+SET	MC103
+
+// Rung Drive#13
+// Offset 156
+STR	MC3
+MWX	@IntSerModbusClient	0	0	1	6	2332	1	0	0x0	0	0x1	Drive.S3	C214	V1006
+
+// Rung Drive#14
+// Offset 168
+SG	Drive.S3
+
+// Rung Drive#15
+// Offset 170
+STRN	MC3
+ANDN	MC602
+ANDN	MC104
+JMP	Drive.S0
+RST	MC100
+RST	MC103
+RST	MC104
+
+// End of Code Block Drive
+$PGMEND	Drive
+
+// Beginning of Code Block Heartbeat
+$PRGRM	Heartbeat
+
+// Rung Heartbeat#1
+// Offset 0
+SG	Heartbeat.S0
+
+// Rung Heartbeat#2
+// Offset 2
+STR	ST1
+TMR	T3	60000
+
+// Rung Heartbeat#3
+// Offset 5
+STR	MC600
+RST	MC600
+SET	MC601
+RST	MC602
+SETNUMR	D10	D10	0
+JMP	Heartbeat.S1
+
+// Rung Heartbeat#4
+// Offset 13
+STR	T3.Done
+ANDN	MC600
+RSTT	T3
+INC	D10
+
+// Rung Heartbeat#5
+// Offset 17
+STRGE	D10	3
+ANDN	MC900
+JMP	Heartbeat.S3
+SETNUMR	D10	D10	0
+
+// Rung Heartbeat#6
+// Offset 26
+SG	Heartbeat.S1
+
+// Rung Heartbeat#7
+// Offset 28
+STR	ST1
+TMR	T4	3000
+
+// Rung Heartbeat#8
+// Offset 31
+STR	T4.DN
+RST	MC601
+JMP	Heartbeat.S0
+
+// Rung Heartbeat#9
+// Offset 34
+SG	Heartbeat.S3
+
+// Rung Heartbeat#10
+// Offset 36
+STRN	Drive.S0
+RST	MC100
+
+// Rung Heartbeat#11
+// Offset 38
+STRN	MHR1024:0
+ANDN	MHR1024:1
+AND	MC102
+AND	Drive.S0
+RST	MC102
+
+// Rung Heartbeat#12
+// Offset 43
+STRN	MHR1024:0
+ANDN	MHR1024:1
+ANDN	MHR1024:3
+ANDN	MHR1024:4
+AND	Drive.S0
+SET	MC100
+RST	MC602
+JMP	Heartbeat.S4
+
+// Rung Heartbeat#13
+// Offset 51
+SG	Heartbeat.S4
+
+// Rung Heartbeat#14
+// Offset 53
+STRN	MC602
+SET	MC602
+RSTT	T5
+
+// Rung Heartbeat#15
+// Offset 56
+STR	MC602
+DUPBOOL
+AND	T6.Zero
+ANDN	MC901
+EMAIL	@LCO_smtp	"""lvm-critical@sdss.org"""	""""""	""""""	"""Critical:PLC connection lost"""	0x1	"""PLC has lost communication with the server for "" D3 "" seconds"""	0x0	C1	C2
+POPBOOL
+DUPBOOL
+ANDN	T6.Done
+TMR	T6	300000
+POPBOOL
+AND	ST1
+TMRAG	T5	0
+MATH	D3	"(T5.Acc / 1000) + 180"
+
+// Rung Heartbeat#16
+// Offset 123
+STR	T6.Done
+RSTT	T6
+
+// Rung Heartbeat#17
+// Offset 125
+STR	MC600
+SET	MC601
+RST	MC600
+RST	MC602
+RSTT	T5
+JMP	Heartbeat.S1
+ANDN	MC901
+EMAIL	@LCO_smtp	"""lvm-critical@sdss.org"""	""""""	""""""	"""Critical: PLC conection restored"""	0x1	"""PLC to server communication restored after "" D3 "" seconds"""	0x1	Heartbeat.S1	C2
+
+// End of Code Block Heartbeat
+$PGMEND	Heartbeat
+
+#BEGIN ELEMENT_DOC
+"X16","Door_locked_in","",""
+"X18","Door_closed_in","",""
+"X24","Ctl_lights_in","","Control room lights current sensor input"
+"X25","Utl_room_in","","Utilities room lights current sensor input"
+"X26","Spec_lights_in","","Spectrograph room lights current sensor input"
+"X27","Mze_lights_in","","Mezzanine lights current sensor input"
+"X28","Plat_Wlights_in","","Platform white light current sensor input"
+"X29","Plat_Rlights_in","","Platform red light current sensor input"
+"X32","LS_NW_in","",""
+"X34","LS_SW_in","",""
+"X36","LS_NE_in","",""
+"X38","LS_SE_in","",""
+"X40","Estop_status","","Shows if E-stop is active"
+"X47","rain_sen_in","",""
+"Y0","Ctl_lights_out","","Control room lights relay out"
+"Y1","Utl_lights_out","","Utilities room lights relay out"
+"Y2","Spec_lights_out","","Spectrograph room lights relay out"
+"Y3","Mze_lights_out","","Mezzanine room lights relay out"
+"Y4","Plat_Wlight_out","","Roll-off White light relay out"
+"Y5","Plat_Rlight_out","","Roll-off Red light relay out"
+"Y8","HVAC_flag","","Flag to stop telescope platform fans"
+"Y13","PLC_Estop_releas","","PLC reset e-stop output"
+"Y14","PLC_Estop","","PLC e-stop output"
+"C7","SMTP_log","","Sends information to dmlogger when smpt message is sent"
+"C100","","","Success read"
+"C101","","","Success read"
+"C102","","","Success read"
+"C103","","","Success read"
+"C104","","","Success read"
+"C105","","","Success read"
+"C106","","","Success read"
+"C107","","","Success read"
+"C108","","","Success read"
+"C109","","","Success read"
+"C110","","","Success read"
+"C200","","","Error read"
+"C201","","","Error read"
+"C202","","","Error read"
+"C203","","","Error read"
+"C204","","","Error read"
+"C205","","","Error read"
+"C206","","","Error read"
+"C207","","","Error read"
+"C208","","","Error read"
+"C209","","","Error read"
+"C210","","","Error read"
+"C211","","","Error read"
+"C212","","","Error read"
+"C213","","","Error read"
+"C214","","","Error read"
+"D0","Overcurrent_lim","",""
+"D1","Dome_move_tout","",""
+"D2","curr_delay_val","",""
+"T0","Dome_tout","",""
+"T1","Curr_delay","",""
+"SS2","filename","",""
+"SL0","DMLOG_new_read","","Modbus variables new reading for dmlogger output"
+"SL1","DMLOG_MOD_OUT","","Modbus variables sent to DMLOGGER"
+"SL2","Log_Filename","","DMlogger log filename"
+"SL3","DMLOG_saved_read","","Modbus variables to be checked against at next cycle"
+"SL4","SMTP_Error","",""
+"UDT0","date","",""
+"MC1","Door_locked","",""
+"MC2","Door_closed","",""
+"MC3","Local_enable","",""
+"MC100","Dome_enable","","LVM software motor enable"
+"MC102","Motor_dir","","LVM software motor direction"
+"MC103","Dome_Tout_stat","","Roll-off timout status"
+"MC104","Dome_Tout_rst","","Reset Roll-off timeout bit"
+"MC105","NE_lim_mod","","North-east LS modbus output"
+"MC106","SE_lim_mod","","South-east LS modbus output"
+"MC107","NW_lim_mod","","North-west LS modbus output"
+"MC108","SW_lim_mod","","South-west LS modbus output"
+"MC109","Dome_closed","","Dome status closed"
+"MC110","Dome_open","","Dome status open"
+"MC200","Estop_stat_mbus","","E-stop status, read on the secondary electrical panel"
+"MC201","Remote_estop","","Remote E-stop"
+"MC202","Remote_estop_rel","","Remote E-stop release"
+"MC235","CTL_room_tog","","Modbus control room lights toggle"
+"MC236","UTL_room_tog","","Modbus utilities room lights toggle"
+"MC237","Spec_room_tog","","Modbus Spectrograph room lights toggle"
+"MC238","Mze_room_tog","","Modbus mezzanine room lights toggle"
+"MC239","Plat_wlight_tog","","Modbus roll-off white light toggle"
+"MC240","Plat_rlight_tog","","Modbus roll-off red light toggle"
+"MC335","CTL_room_stat","","Modbus utilities room lights status"
+"MC336","UTL_room_stat","","Modbus utilities room lights status"
+"MC337","Spec_room_stat","","Modbus spectrograph room lights status"
+"MC338","Mze_room_stat","","Modbus mezzanine room lights status"
+"MC339","Plat_wlight_stat","","Modbus roll-off white light status"
+"MC340","Plat_rlight_stat","","Modbus roll-off red light status"
+"MC600","HB_input","",""
+"MC601","HB_ACK","",""
+"MC602","HB_err_out","",""
+"MC700","Rain_mod","",""
+"MC900","Eng_hw_mode","","Disables hardware safety features"
+"MC901","Eng_sw_mode","","Disables software safety features"
+"MHR600","O2_pct_utl_room","",""
+"MHR601","O2_pct_spec_room","",""
+"MHR602","ODH_EC_utl_room","",""
+"MHR603","ODH_EC_spec_room","",""
+"MHR604","ODH_SB_utl_room","",""
+"MHR605","ODH_SB_spec_room","",""
+"MHR1024","Status_2","","GS3 drive status 2"
+"MHR1024:0","Status_2:0","","GS3 drive movement transitioning state"
+"MHR1024:1","Status_2:1","","GS3 drive movement status"
+"MHR1024:3","Status_2:3","","GS3 drive directiontransitioning state"
+"MHR1024:4","Status_2:4","","GS3 drive direction"
+"Drive.S0","Idle","",""
+"Drive.S1","Motor_start","",""
+"Drive.S2","Motor_moving","",""
+"Drive.S3","Drive_disable","","Drive is disabled due to local mode or heartbeat"
+"Heartbeat.S0","HB_idle","",""
+"Heartbeat.S1","HB_ok_wait","",""
+"Heartbeat.S3","HB_error","",""
+"Heartbeat.S4","HB_wait_error","",""
+#END
+
