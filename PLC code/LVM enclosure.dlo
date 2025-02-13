@@ -6,10 +6,10 @@
 		<Pane-2 Type="0" DockingCX="360" DockingCY="286" Title="Data1\n\n" ID="6857" DockingHolder="7" LastHolder="7"/>
 		<Pane-3 Type="5" Direction="3" Panes="0"/>
 		<Pane-4 Type="2" DockingCX="2560" DockingCY="858" Panes="1" Pane-1="5"/>
-		<Pane-5 Type="2" DockingCX="1920" DockingCY="597" Horiz="1" Panes="3" Pane-1="6" Pane-2="8" Pane-3="10"/>
-		<Pane-6 Type="2" DockingCX="394" DockingCY="841" Panes="1" Pane-1="7"/>
+		<Pane-5 Type="2" DockingCX="1512" DockingCY="597" Horiz="1" Panes="3" Pane-1="6" Pane-2="8" Pane-3="10"/>
+		<Pane-6 Type="2" DockingCX="123" DockingCY="841" Panes="1" Pane-1="7"/>
 		<Pane-7 Type="1" DockingCX="360" DockingCY="273" Panes="1" Selected="2" Pane-1="2"/>
-		<Pane-8 Type="2" DockingCX="2162" Panes="1" Pane-1="9"/>
+		<Pane-8 Type="2" DockingCX="1793" Panes="1" Pane-1="9"/>
 		<Pane-9 Type="4" DockingCY="580"/>
 		<Pane-10 Type="1" DockingCX="240" DockingCY="286" Panes="0"/>
 	</DSP_PANE_SECTION>
