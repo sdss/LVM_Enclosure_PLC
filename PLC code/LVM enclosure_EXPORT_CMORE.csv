@@ -633,7 +633,7 @@ MODBUS_IO_DEV,9,3,00000123
    ErrorCount,9,UNSIGNED_INT_16,2,1,
 #END
 
-#BEGIN DM_BUILTIN_DATA_BLOCKS CED946DF 165B885D
+#BEGIN DM_BUILTIN_DATA_BLOCKS 1005F1F7 D690AD28
 // name, block-num, DM-structure-data-type-cMore-data-type, radix, count, GUID
 ST,1,DISCRETE,decimal,1024,0000000D
 DST,2,SIGNED_INT_32,decimal,512,0000000E
@@ -667,7 +667,7 @@ RX,30,FLOATING_PT_32,decimal,256,0000002A
 RY,31,FLOATING_PT_32,decimal,256,0000002B
 #END
 
-#BEGIN DM_USER_DATA_BLOCKS CED946DF 165B885D
+#BEGIN DM_USER_DATA_BLOCKS 1005F1F7 D690AD28
 // name, block-num, DM-structure-data-type-cMore-data-type, radix, count, GUID
 dmlogger,239,UNSIGNED_INT_8,decimal,256,63274CD2
 #END
@@ -704,15 +704,14 @@ $Dome_encoder,50,CTRIO_COUNTER,DB9153A3
 
 #BEGIN DM_USER_HEAP_ITEMS
 // name, heap-id, DM-structure-data-type, GUID
-Drive,41,PROGRAM,4315E8E9
-Heartbeat,46,PROGRAM,F8F3CF08
+Drive_overcur,41,PROGRAM,4315E8E9
 Rain,45,PROGRAM,F9DFE23D
-Drive_new,48,PROGRAM,AB353CE5
-Heartbeat_new,51,PROGRAM,F35A457E
+Drive,48,PROGRAM,AB353CE5
+Heartbeat,51,PROGRAM,F35A457E
 NTP,52,PROGRAM,10C912CD
 #END
 
-#BEGIN DM_NICKNAMES EBB0D62C
+#BEGIN DM_NICKNAMES 26A5AAA7
 // nickname, data-type, DM-element, User-BuiltIn-Block-Heap-Type, block-name-or-heap-item-name
 Door_locked_in,DISCRETE,X16,BBLOCK,X
 Door_unlocked_in,DISCRETE,X17,BBLOCK,X
@@ -743,6 +742,8 @@ Brake_start,DISCRETE,Y9,BBLOCK,Y
 Drive_error_led,DISCRETE,Y12,BBLOCK,Y
 PLC_Estop_releas,DISCRETE,Y13,BBLOCK,Y
 PLC_Estop,DISCRETE,Y14,BBLOCK,Y
+SMTP_success,DISCRETE,C1,BBLOCK,C
+SMTP_err,DISCRETE,C2,BBLOCK,C
 SMTP_log,DISCRETE,C7,BBLOCK,C
 rain_time_done,DISCRETE,C13,BBLOCK,C
 NTP_read_ok,DISCRETE,C14,BBLOCK,C
@@ -854,33 +855,30 @@ ODH_SB_utl_room,SIGNED_INT_16,MHR604,BBLOCK,MHR
 ODH_SB_spec_room,SIGNED_INT_16,MHR605,BBLOCK,MHR
 Rain_el_time,SIGNED_INT_16,MHR700,BBLOCK,MHR
 No_rain_cdown,SIGNED_INT_16,MHR701,BBLOCK,MHR
-Idle,DISCRETE,Drive.S0,UHEAP,Drive
-R_brakes,DISCRETE,Drive.S1,UHEAP,Drive
-Motor_start,DISCRETE,Drive.S2,UHEAP,Drive
-Movement,DISCRETE,Drive.S3,UHEAP,Drive
-Drive_disable,DISCRETE,Drive.S4,UHEAP,Drive
+Idle,DISCRETE,Drive_overcur.S0,UHEAP,Drive_overcur
+R_brakes,DISCRETE,Drive_overcur.S1,UHEAP,Drive_overcur
+Motor_start,DISCRETE,Drive_overcur.S2,UHEAP,Drive_overcur
+Movement,DISCRETE,Drive_overcur.S3,UHEAP,Drive_overcur
+Drive_disable,DISCRETE,Drive_overcur.S4,UHEAP,Drive_overcur
+lcout,DISCRETE,Drive_overcur.S5,UHEAP,Drive_overcur
 Rain_idle,DISCRETE,Rain.S0,UHEAP,Rain
 Rain_timer,DISCRETE,Rain.S1,UHEAP,Rain
-HB_idle,DISCRETE,Heartbeat.S0,UHEAP,Heartbeat
-HB_ok_wait,DISCRETE,Heartbeat.S1,UHEAP,Heartbeat
-HB_error,DISCRETE,Heartbeat.S3,UHEAP,Heartbeat
-HB_wait_error,DISCRETE,Heartbeat.S4,UHEAP,Heartbeat
-Drive_idle,DISCRETE,Drive_new.S0,UHEAP,Drive_new
-Rem_brakes,DISCRETE,Drive_new.S1,UHEAP,Drive_new
-Start_movement,DISCRETE,Drive_new.S2,UHEAP,Drive_new
-Open_roof,DISCRETE,Drive_new.S3,UHEAP,Drive_new
-Open_aproach,DISCRETE,Drive_new.S4,UHEAP,Drive_new
-Close_roof,DISCRETE,Drive_new.S5,UHEAP,Drive_new
-Close_roof_apr,DISCRETE,Drive_new.S6,UHEAP,Drive_new
-Stop_movement,DISCRETE,Drive_new.S7,UHEAP,Drive_new
-Set_brakes,DISCRETE,Drive_new.S8,UHEAP,Drive_new
-Error,DISCRETE,Drive_new.S9,UHEAP,Drive_new
-Lockout,DISCRETE,Drive_new.S10,UHEAP,Drive_new
-Stop_move_select,DISCRETE,Drive_new.S11,UHEAP,Drive_new
-HB_idle_new,DISCRETE,Heartbeat_new.S0,UHEAP,Heartbeat_new
-HB_ok_wait_new,DISCRETE,Heartbeat_new.S1,UHEAP,Heartbeat_new
-HB_error_new,DISCRETE,Heartbeat_new.S3,UHEAP,Heartbeat_new
-HB_error_wait,DISCRETE,Heartbeat_new.S4,UHEAP,Heartbeat_new
+Drive_idle,DISCRETE,Drive.S0,UHEAP,Drive
+Rem_brakes,DISCRETE,Drive.S1,UHEAP,Drive
+Start_movement,DISCRETE,Drive.S2,UHEAP,Drive
+Open_roof,DISCRETE,Drive.S3,UHEAP,Drive
+Open_aproach,DISCRETE,Drive.S4,UHEAP,Drive
+Close_roof,DISCRETE,Drive.S5,UHEAP,Drive
+Close_roof_apr,DISCRETE,Drive.S6,UHEAP,Drive
+Stop_movement,DISCRETE,Drive.S7,UHEAP,Drive
+Set_brakes,DISCRETE,Drive.S8,UHEAP,Drive
+Error,DISCRETE,Drive.S9,UHEAP,Drive
+Lockout,DISCRETE,Drive.S10,UHEAP,Drive
+Stop_move_select,DISCRETE,Drive.S11,UHEAP,Drive
+Dome_encoder_in,SIGNED_INT_32,$Dome_encoder.iReg1,BHEAP,$Dome_encoder
+HB_idle_new,DISCRETE,Heartbeat.S0,UHEAP,Heartbeat
+HB_ok_wait_new,DISCRETE,Heartbeat.S1,UHEAP,Heartbeat
+HB_error_wait,DISCRETE,Heartbeat.S2,UHEAP,Heartbeat
 $FirmwareRev,SIGNED_INT_32,DST12,BBLOCK,DST
 $HardwareRev,SIGNED_INT_32,DST14,BBLOCK,DST
 $FPGARev,SIGNED_INT_32,DST16,BBLOCK,DST
@@ -934,7 +932,6 @@ $SysStartup.Second,UNSIGNED_INT_8,SDT2.Second,BBLOCK,SDT
 ,DISCRETE,C101,BBLOCK,C
 ,DISCRETE,C201,BBLOCK,C
 ,DISCRETE,$Dome_encoder.Reset,BHEAP,$Dome_encoder
-,SIGNED_INT_32,$Dome_encoder.iReg1,BHEAP,$Dome_encoder
 ,DISCRETE,C6,BBLOCK,C
 ,DISCRETE,C102,BBLOCK,C
 ,DISCRETE,C202,BBLOCK,C
@@ -948,8 +945,6 @@ $SysStartup.Second,UNSIGNED_INT_8,SDT2.Second,BBLOCK,SDT
 ,DISCRETE,MC101,BBLOCK,MC
 ,DISCRETE,C10,BBLOCK,C
 ,DISCRETE,C11,BBLOCK,C
-,DISCRETE,C1,BBLOCK,C
-,DISCRETE,C2,BBLOCK,C
 ,DISCRETE,C8,BBLOCK,C
 ,DISCRETE,C12,BBLOCK,C
 ,UNSIGNED_INT_16,V0,BBLOCK,V
@@ -964,7 +959,6 @@ $SysStartup.Second,UNSIGNED_INT_8,SDT2.Second,BBLOCK,SDT
 ,DISCRETE,C211,BBLOCK,C
 ,DISCRETE,C212,BBLOCK,C
 ,DISCRETE,C213,BBLOCK,C
-,DISCRETE,C214,BBLOCK,C
 ,DISCRETE,C111,BBLOCK,C
 T_countdown.Acc,SIGNED_INT_32,T11.Acc,BBLOCK,T
 T_countdown.Done,DISCRETE,T11.Done,BBLOCK,T
