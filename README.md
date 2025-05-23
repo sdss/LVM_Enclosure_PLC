@@ -1,5 +1,5 @@
 # LVM_Enclosure_PLC
-LVM enclosure PLC code and documentation.
+LVM enclosure PLC code and documentation. There is also a HVAC Modbus configruation file, which details the commands to the HVAC system that is attached to the north side of the attic.
 
 # Where to start?
 Generally, look in the Documentation Directory.
