@@ -1,1 +1,4 @@
 Record=TopLevelDocument|FileName=LVM main.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=LVM main.SchDoc|FileName=PLC dual power input.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=LVM main.SchDoc|FileName=PLC in.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=LVM main.SchDoc|FileName=PLC out.SchDoc|SheetNumber=2
